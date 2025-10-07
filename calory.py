@@ -34,7 +34,7 @@ def main():
     bmr = calculate_bmr(weight, height, age, gender)
     tdee = calculate_tdee(bmr, activity_level)
     
-    if goal == "bulk":
+    if goal == "bulkk":
         total_calories = tdee * 1.15  # +15% surplus
     elif goal == "cut":
         total_calories = tdee * 0.8   # -20% deficit
